@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library of Congress</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <section class="row ">
+      <div class="col-3 bg-light">
+        <div class="row py-2 ml-2 justify-content-center">
+          <h4>Library of Congress Search Engine</h4>
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" id="searchFor" placeholder="Search Library!">
+        </div>
+        <div class="dropdown mt-2">
+          <button class="btn btn-primary dropdown-toggle btn-block text-left" type="button" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Choose Format
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" format="maps">Maps</a>
+            <a class="dropdown-item" format="audio">Audio recordings</a>
+            <a class="dropdown-item" format="photos">Photo, print, drawing</a>
+            <a class="dropdown-item" format="manuscripts">Manuscripts/mixed material</a>
+            <a class="dropdown-item" format="newspapers">Newspapers</a>
+            <a class="dropdown-item" format="film-and-videos">Film, videos</a>
+            <a class="dropdown-item" format="notated-music">Printed music, such as sheet music</a>
+            <a class="dropdown-item" format="websites">Archived websites</a>
+          </div>
+        </div>
+        <div>
+          <button type="submit" id="searchSubmit" class="btn btn-success my-2 btn-block">Click Me</button>
+        </div>
+        <div>
+          <button type="submit" id="backMain" class="btn btn-danger my-2 btn-block">Go Back</button>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="row ml-1">
+          <h2>Showing results for</h2>
+        </div>
+        <div class="col bg-dark" id="srchResults">
+          <!-- <p> is just a placeholder will be removed when Javascript is done to generate results-->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut tenetur expedita distinctio sequi aperiam
+            architecto rem magnam eum, quae exercitationem quia eligendi quidem atque minus? Aliquid, libero aliquam.
+            Sequi nam doloremque odit voluptate animi recusandae porro dolores distinctio aspernatur corporis quo quae,
+            autem corrupti ab suscipit dicta eius maxime dignissimos sint! Neque cum quidem provident cumque eius autem
+            a molestiae iusto consequuntur dolor ad maxime ab blanditiis ipsum repellendus at debitis magni dolorem
+            voluptate nihil culpa ipsa, consequatur sunt est. Impedit incidunt nobis accusamus rem delectus, expedita
+            sint? Quos, eveniet iste quae labore repellat dolorem ratione pariatur, repellendus reiciendis porro ad
+            exercitationem architecto facere! Temporibus quia culpa consequatur enim. Perferendis sunt, quos dolores sed
+            consequuntur aperiam rem, at, in libero provident amet alias nesciunt laudantium quia quam tempora iure
+            laboriosam quidem dolore voluptatem itaque. Porro quae excepturi veniam eveniet quasi itaque possimus
+            laudantium vel sed tempore? Repellat, dolorum sed unde pariatur expedita doloribus rerum obcaecati ipsa
+            explicabo incidunt. Incidunt recusandae veritatis, consequatur eligendi consequuntur quos! Excepturi
+            provident itaque sint consectetur rerum quis, assumenda deserunt, commodi eius, placeat temporibus
+            obcaecati? Magnam minus, nemo similique porro iure dicta ex est libero doloribus dolores facere animi quae.
+            Doloribus ratione quae alias quasi maiores molestias, quam, nihil error, repudiandae similique numquam
+            doloremque. Totam beatae inventore provident temporibus sequi! Delectus optio fugit esse assumenda, eum
+            repudiandae dolorum consectetur dolore deleniti ex id ut reprehenderit enim! Velit earum voluptate, itaque
+            corporis animi aliquam nobis ut maxime sapiente beatae magni neque sed eum ipsam voluptatem doloremque
+            dolorem, vitae praesentium vel. Tempora quaerat cumque nulla nam molestias magni voluptatem itaque a qui
+            debitis quo praesentium natus ut, esse blanditiis iste sed voluptatibus doloribus, corporis sint fugit
+            officiis. Dignissimos provident, perferendis tempore sit pariatur rem! Repellendus omnis commodi, assumenda
+            quod rem modi! Sint veniam cupiditate optio vero voluptate, ipsa fugit suscipit adipisci nostrum ducimus
+            corrupti, repudiandae aliquid. Delectus laudantium commodi obcaecati est ipsam ipsum sed illo numquam
+            quisquam, nesciunt eius? Eius aliquid voluptatem quos, qui animi illum minima architecto, laborum maxime ab
+            vero error, eligendi iure saepe nulla expedita repellendus! Ratione quod autem exercitationem saepe quia nam
+            fugit deleniti, molestias, ullam a at explicabo tempora accusamus ut suscipit voluptatem reiciendis optio!
+            Minima officia adipisci hic ullam asperiores non unde dignissimos cupiditate, accusantium quisquam quo autem
+            earum deleniti porro enim, officiis harum in. Voluptas ducimus, qui aperiam fuga soluta dolor at numquam
+            fugiat quo minima praesentium, repellat odit aliquid dignissimos cupiditate, aliquam deserunt alias tempore.
+            Optio veniam sapiente eius distinctio omnis dignissimos culpa veritatis aperiam tenetur, earum nemo nobis
+            magnam asperiores mollitia ex nihil officiis ab ea facere id dolorum ad aliquid pariatur? Facilis fugiat et,
+            eligendi aliquid vel quae fuga! Consequatur iste commodi eveniet, molestiae vero voluptate sunt labore
+            autem, eum ipsa at harum saepe beatae sapiente. Eaque placeat tempore dolorem consequatur similique ratione
+            officiis laudantium fugit cupiditate. Reprehenderit, repudiandae corporis totam sint quis quibusdam
+            voluptatibus consectetur exercitationem ut iste molestias minus mollitia vitae nisi fugiat deserunt magni
+            autem neque atque eligendi commodi, odio porro? Quae dolores ab deleniti officia architecto natus molestias
+            obcaecati eaque delectus. Explicabo aspernatur ipsum iusto ab perferendis ratione itaque illum quibusdam, ut
+            numquam corrupti libero voluptatibus quae quas in pariatur quis excepturi laboriosam nihil fugiat, qui ad
+            esse? Cum non nesciunt dolorum quae exercitationem soluta, magnam earum necessitatibus culpa, officiis illo
+            ducimus molestias rem delectus quod, iusto consequatur esse aliquid dicta molestiae aperiam. Adipisci, ab a!
+            Id odio, explicabo nulla soluta eum voluptatum, quos laboriosam expedita quod cumque corrupti. Perferendis
+            iure recusandae ad delectus? Modi numquam aliquam ducimus delectus dolorum officia eos eaque laudantium ea
+            veritatis corrupti, doloribus quaerat, tempora incidunt impedit accusantium amet, reprehenderit quia
+            molestias. Vero, quaerat! Ratione magni quibusdam voluptas quam, neque cumque? Deleniti beatae ipsa
+            excepturi ipsum odio eius nobis sunt illo nisi temporibus in at commodi nam, aliquid mollitia ullam pariatur
+            perferendis maiores dolores rem nemo? Beatae, quasi. Alias eligendi est illo quis, iusto vel ad rerum,
+            placeat sapiente quia temporibus sit laborum? Adipisci repudiandae in voluptatibus quo veniam sint incidunt
+            enim asperiores placeat molestias. Dicta explicabo nesciunt libero corporis ex dolore iusto non architecto
+            veritatis similique facere, placeat, consequuntur qui illum unde distinctio mollitia aliquam alias maxime
+            !</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+<script src="../js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>

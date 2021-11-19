@@ -14,3 +14,7 @@ Refer to the following pages for bootstrap choices I tried to match the example 
 
 
 [format options](https://libraryofcongress.github.io/data-exploration/requests.html#searching) All the format options and possible values.
+
+**Search-Results html**
+
+For the search results pages i removed all the margins and padding as well as reduced the columns by half. this shunted the search form to the top left corner as in the example img.
