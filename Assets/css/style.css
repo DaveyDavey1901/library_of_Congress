@@ -1,8 +1,18 @@
+body {
+background-color: #326269;
+font-family: 'Source Serif Pro', serif;
+}
+
 h1,
 h2 {
     font-size: 40px;
     font-weight: 600;
     color: #fff;
     
+}
+
+header{
+ background-color: #275f51;
+
 }
 
