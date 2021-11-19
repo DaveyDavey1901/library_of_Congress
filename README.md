@@ -1,13 +1,16 @@
 # library Of Congress Mini Project
 
 
-refer to the following pages for bootstrap choices I tried to match the example img as close as possible:-
+Refer to the following pages for bootstrap choices I tried to match the example img as close as possible:-
 
-[Spacing](https://getbootstrap.com/docs/4.1/utilities/spacing/)
-[Dropbox](https://getbootstrap.com/docs/4.1/components/dropdowns/)
-[Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)
-[search input](https://getbootstrap.com/docs/4.1/components/input-group/)
+[Spacing](https://getbootstrap.com/docs/4.1/utilities/spacing/) Margin spacing and padding 
 
-helpful links to the congress api which i've used so far
+[Dropbox](https://getbootstrap.com/docs/4.1/components/dropdowns/) Dropdown menus i used here.
 
-[format options](https://libraryofcongress.github.io/data-exploration/requests.html#searching)
+[Buttons](https://getbootstrap.com/docs/4.1/components/buttons/) Button options i used here.
+
+[search input](https://getbootstrap.com/docs/4.1/components/input-group/) Input group i used here (default)
+
+
+
+[format options](https://libraryofcongress.github.io/data-exploration/requests.html#searching) All the format options and possible values.
