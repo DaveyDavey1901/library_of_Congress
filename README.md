@@ -8,3 +8,6 @@ refer to the following pages for bootstrap choices I tried to match the example 
 [Buttons](https://getbootstrap.com/docs/4.1/components/buttons/)
 [search input](https://getbootstrap.com/docs/4.1/components/input-group/)
 
+helpful links to the congress api which i've used so far
+
+[format options](https://libraryofcongress.github.io/data-exploration/requests.html#searching)

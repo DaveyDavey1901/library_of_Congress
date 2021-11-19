@@ -15,4 +15,15 @@ header{
  background-color: #275f51;
 
 }
+.input-group,
+.btn-primary,
+.btn-primary:focus,
+.dropdown.show,
+.dropdown-toggle a:hover, 
+.dropdown-toggle a:active
+{ 
+    color: #000;
+    background-color: #fff;
+    border-color: #d3d3d3;
+}
 
